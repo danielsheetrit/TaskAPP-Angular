@@ -1,0 +1,14 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    margin: 2%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 999px;
+
+    fa-icon {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
