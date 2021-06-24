@@ -1,9 +1,21 @@
-<div class="task-item">
+<div 
+        [ngClass]="{ reminder: task.reminder }"
+        class="task-item"
+    >
     <div>
         <h3>{{task.txt}}</h3>
         <p>Created at: {{task.createdAt}}</p>
     </div>
-    <div>
-        <fa-icon [icon]="faTimes" [ngStyle]="{color: 'red'}"></fa-icon>
+    <div class="task-item-controls">
+        <fa-icon 
+            [icon]="faTimes" 
+            (click)="onRemove(task)"
+        >
+        </fa-icon>
+        <fa-icon
+            [icon]="faBell"
+            (click)="onToggle(task)"
+        >
+        </fa-icon>
     </div>
 </div>

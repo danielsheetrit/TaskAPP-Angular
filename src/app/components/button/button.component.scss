@@ -1,11 +1,12 @@
 button {
     background-color: transparent;
     border: 2px solid white;
-    border-radius: 999px;
+    border-radius: 8px;
     padding: 8px 16px;
+    color: white;
 
     &:hover {
         background-color: white;
-        color: rgb(151, 151, 245);
+        color: #444444;
     }
 }

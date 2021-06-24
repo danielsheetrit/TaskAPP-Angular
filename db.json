@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "txt": "Milk",
+      "createdAt": "13.06.21",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "txt": "Hell dddd",
+      "createdAt": "13.06.21",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "txt": "Hell yea",
+      "createdAt": "13.06.21",
+      "reminder": false
+    }
+  ]
+}

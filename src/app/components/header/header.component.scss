@@ -1,9 +1,10 @@
 header {
     width: 100%;
-    background-color: rgb(50, 190, 255);
+    background-color: #444444;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 
     nav {
+        color: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
