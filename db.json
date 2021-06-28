@@ -4,19 +4,25 @@
       "id": 1,
       "txt": "Milk",
       "createdAt": "13.06.21",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
       "txt": "Hell dddd",
       "createdAt": "13.06.21",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
       "txt": "Hell yea",
       "createdAt": "13.06.21",
-      "reminder": false
+      "reminder": true
+    },
+    {
+      "txt": "Nisan day",
+      "createdAt": "6/24/2021, 3:34:33 PM",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

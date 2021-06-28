@@ -1,10 +1,12 @@
-<form>
+<form *ngIf="isAddTask" (ngSubmit)="onSubmit()">
     <label for="task-txt">Your text:</label>
     <textarea 
         id="task-txt" 
         name="txt" 
         rows="2"
         autofocus
+        [(ngModel)]="txt"
+        required
     >
     </textarea>
     <div>
@@ -12,6 +14,7 @@
         <input 
             type="checkbox"
             name="checkbox"    
+            [(ngModel)]="checkbox"
         >
     </div>
     <button>Add!</button>

@@ -6,8 +6,9 @@
     padding: 20px;
     margin: 2%;
     background-color: rgb(206, 206, 206);
+    border-left: 5px solid rgb(206, 206, 206);
     border-radius: 8px;
-    
+
     &.reminder {
         border-left: 5px solid rgb(0, 124, 226);
     }
